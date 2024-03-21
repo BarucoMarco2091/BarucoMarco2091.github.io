@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.container {
+    display: flex;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 20px;
+    width: 100%;
+}
+
+.box h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.box .nav-paragraph {
+    display: flex;
+    justify-content: left;
+    padding-left: 25px;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box li {
+    padding-top: 25px ;
+    padding-left: 25px;
+}
+
+.box p {
+    line-height: 2;
+    padding-top: 40px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+.box .contact{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    margin-bottom: 0;
+}
+
+footer .paragraph {
+    justify-content: center;
+    align-items: center;
+}
